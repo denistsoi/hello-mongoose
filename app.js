@@ -88,6 +88,14 @@ var johndoe = new PUser ({
 // Saving it to the database.  
 johndoe.save(function (err) {if (err) console.log ('Error on save!')});
 
+var marvdoe = new PUser ({
+  name: { first: 'Marv', last: 'Doe' },
+  age: 28
+});
+
+// Saving it to the database.  
+marvdoe.save(function (err) {if (err) console.log ('Error on save!')});
+
 // Creating more users manually
 var janedoe = new PUser ({
   name: { first: 'Jane', last: 'Doe' },
