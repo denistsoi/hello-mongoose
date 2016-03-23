@@ -8,7 +8,7 @@ To deploy [the app](http://hello-mongoose.herokuapp.com/) to Heroku you can use 
 
 1. `git clone git://github.com/mongolab/hello-mongoose.git && cd hello-mongoose`
 2. `heroku create`
-3. `heroku addons:add mongolab`
+3. `heroku addons:create mongolab`
 3. `git push heroku master`
 4. `heroku open`
 
